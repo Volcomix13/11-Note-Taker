@@ -1,7 +1,6 @@
-const express = require ('express');
-const api = require ('./routes/api-routes.js');
-const html = require ('./routes/html-routes.js');
-const path = require ('path');
+const express = require('express');
+const api = require('./routes/api-routes.js');
+const html = require('./routes/html-routes.js');
 
 const PORT = process.env.port || 3001;
 
@@ -14,10 +13,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 //routes
-app.use(api);
-app.use(html);
+app.use("/api", api);
+app.use("/", html);
 
-app.listen(PORT,()=>
+app.listen(PORT, () =>
     console.log(`App listenint at http://localhost:${PORT}`)
 );
 
