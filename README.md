@@ -28,9 +28,11 @@ Once node js and Express have been installed,
 2. Enter a title and your note
 3. Click on the floppy disk icon to save your note, your note will then appear on the left column
 
+![Project_Image](./project_screenshot.png)
+
 GitHub link:https://github.com/Volcomix13/11-Note-Taker
 
-https://volcomix13.github.io/11-Note-Taker
+https://dashboard.heroku.com/apps/note-tracker13
 
 ## Credits
 
