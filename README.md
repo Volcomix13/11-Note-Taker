@@ -13,13 +13,24 @@ The challenges I encountered were mainly learning how to deploy the application 
 
 ## Installation
 
-To install this application please copy the started code to a newly created repository in GitHub. 
-In the terminal, install node js and express js
+To install this application:
+1. Copy the started code
+2. Navigate to the Develop folder
+3. In your terminal type npm i -y to install node
+4. After, type the command npm install express to install express.js
+5. Run command node server.js
+6. Copy the port item and paste it in your preferred browser, this should bring up the application. 
+
 
 ## Usage
-
+Once node js and Express have been installed,
+1. Open the app in your browser
+2. Enter a title and your note
+3. Click on the floppy disk icon to save your note, your note will then appear on the left column
 
 GitHub link:https://github.com/Volcomix13/11-Note-Taker
+
+https://volcomix13.github.io/11-Note-Taker
 
 ## Credits
 
